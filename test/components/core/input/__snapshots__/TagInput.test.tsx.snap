@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing 1`] = `
+<DocumentFragment>
+  <div
+    class="w-full"
+  >
+    <div
+      class="h-fit flex items-start flex-wrap w-full bg-white text-gray-800 text-base box-border border outline-none border-border pt-2 px-4 rounded-lg"
+    >
+      <div
+        class="min-w-fit flex items-center mr-2 mb-2 bg-white border border-tag rounded-2xl px-2 py-1"
+      >
+        <span
+          class="leading-none mr-1"
+        >
+          a
+        </span>
+        <img
+          alt="close_icon"
+          class="cursor-pointer mt-1"
+          src="/icons/close.svg"
+        />
+      </div>
+      <div
+        class="min-w-fit flex items-center mr-2 mb-2 bg-white border border-tag rounded-2xl px-2 py-1"
+      >
+        <span
+          class="leading-none mr-1"
+        >
+          b
+        </span>
+        <img
+          alt="close_icon"
+          class="cursor-pointer mt-1"
+          src="/icons/close.svg"
+        />
+      </div>
+      <div
+        class="min-w-fit flex items-center mr-2 mb-2 bg-white border border-tag rounded-2xl px-2 py-1"
+      >
+        <span
+          class="leading-none mr-1"
+        >
+          c
+        </span>
+        <img
+          alt="close_icon"
+          class="cursor-pointer mt-1"
+          src="/icons/close.svg"
+        />
+      </div>
+      <div
+        class="min-w-fit flex items-center mr-2 mb-2 bg-white border border-tag rounded-2xl px-2 py-1"
+      >
+        <span
+          class="leading-none mr-1"
+        >
+          d
+        </span>
+        <img
+          alt="close_icon"
+          class="cursor-pointer mt-1"
+          src="/icons/close.svg"
+        />
+      </div>
+      <input
+        class="outline-none text-sm mt-1 mb-2"
+        type="text"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

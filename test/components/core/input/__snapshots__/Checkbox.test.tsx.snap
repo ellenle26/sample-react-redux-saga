@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing 1`] = `
+<DocumentFragment>
+  <div
+    class="inline-block mt-3 mr-4"
+  >
+    <label
+      class="cursor-pointer leading-loose flex items-center"
+    >
+      <input
+        class="hidden"
+        id="checkbox"
+        type="checkbox"
+      />
+      <img
+        alt="icon"
+        class="inline-block mr-1"
+        src="/icons/checkbox_unchecked.svg"
+      />
+    </label>
+  </div>
+</DocumentFragment>
+`;

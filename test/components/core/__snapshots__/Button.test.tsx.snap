@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing 1`] = `
+<DocumentFragment>
+  <button
+    class="py-5 px-2 w-40 text-sm font-normal border border-solid hover:opacity-80"
+  />
+</DocumentFragment>
+`;

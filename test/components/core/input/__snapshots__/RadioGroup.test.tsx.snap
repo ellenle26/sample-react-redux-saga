@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`screenshot testing 1`] = `
+<DocumentFragment>
+  <div
+    class="undefined"
+  >
+    <form
+      class="flex-col"
+      id="radio_group"
+    >
+      <label
+        class="cursor-pointer leading-loose flex items-center mb-1"
+      >
+        <input
+          checked=""
+          class="hidden"
+          id="radio"
+          name="a"
+          type="checkbox"
+        />
+        <img
+          alt="icon"
+          class="inline-block mr-3"
+          src="/icons/radio_checked.svg"
+        />
+        <p
+          class="text-sm text-gray-800"
+        >
+          a
+        </p>
+      </label>
+      <label
+        class="cursor-pointer leading-loose flex items-center mb-1"
+      >
+        <input
+          class="hidden"
+          id="radio"
+          name="b"
+          type="checkbox"
+        />
+        <img
+          alt="icon"
+          class="inline-block mr-3"
+          src="/icons/radio_unchecked.svg"
+        />
+        <p
+          class="text-sm text-gray-800"
+        >
+          b
+        </p>
+      </label>
+      <label
+        class="cursor-pointer leading-loose flex items-center mb-1"
+      >
+        <input
+          class="hidden"
+          id="radio"
+          name="c"
+          type="checkbox"
+        />
+        <img
+          alt="icon"
+          class="inline-block mr-3"
+          src="/icons/radio_unchecked.svg"
+        />
+        <p
+          class="text-sm text-gray-800"
+        >
+          c
+        </p>
+      </label>
+      <label
+        class="cursor-pointer leading-loose flex items-center mb-1"
+      >
+        <input
+          class="hidden"
+          id="radio"
+          name="d"
+          type="checkbox"
+        />
+        <img
+          alt="icon"
+          class="inline-block mr-3"
+          src="/icons/radio_unchecked.svg"
+        />
+        <p
+          class="text-sm text-gray-800"
+        >
+          d
+        </p>
+      </label>
+    </form>
+  </div>
+</DocumentFragment>
+`;

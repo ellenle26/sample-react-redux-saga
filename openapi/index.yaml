@@ -1,0 +1,28 @@
+openapi: 3.0.3
+info:
+  description: sample。
+  version: 1.0.0
+  title: applicants
+servers:
+  - url: ''
+    variables:
+      basePath:
+        default: /api/v1
+paths:
+  '/':
+    get:
+      summary: #path for what
+      operationId: #getJobList
+      description: |
+        some description
+      parameters:
+        - $ref: '#/components/parameters/UlidPath'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JobListResponse'
+# this file usually get from be, on fe, we just run command
+# $ openapi-generator-cli generate -g typescript-axios -o /outputfolder -i /inputfolder/inputfile.yaml

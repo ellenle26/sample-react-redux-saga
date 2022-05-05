@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@apis/*": ["apis/*"],
+      "@libs/*": ["libs/*"],
+      "@stores/*": ["stores/*"]
+    },
+    "target": "es5",
+    "module": "esnext",
+    "jsx": "preserve",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "noEmit": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "incremental": true
+  },
+  "exclude": [
+    "node_modules",
+    "deployments",
+    ".next",
+    "out",
+    "src/apis"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "globals.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.js",
+    "test/**/*.ts",
+    "test/**/*.tsx"
+, "src/apis/app-api.ts.gitkeep"  ]
+}

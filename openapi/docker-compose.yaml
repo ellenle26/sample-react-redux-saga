@@ -1,0 +1,30 @@
+version: '3'
+services:
+  validate:
+    build:
+      context: .
+    volumes:
+      - .:/srv/
+    command: bash bin/validate.sh
+  build:
+    build:
+      context: .
+    volumes:
+      - .:/srv/
+    command: bash bin/build.sh
+  ui:
+    image: swaggerapi/swagger-ui
+    volumes:
+      - ./build:/usr/share/nginx/html/yaml
+    ports:
+      - "38080:8080"
+    environment:
+      API_URL: /yaml/index.yaml
+  applicant-ui:
+    image: swaggerapi/swagger-ui
+    volumes:
+      - ./build:/usr/share/nginx/html/yaml
+    ports:
+      - "38081:8080"
+    environment:
+      API_URL: /yaml/index.yaml

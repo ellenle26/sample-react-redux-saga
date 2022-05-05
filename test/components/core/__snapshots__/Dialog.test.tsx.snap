@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing 1`] = `
+<DocumentFragment>
+  <div
+    class="absolute top-14 left-0 w-full h-[calc(100%-56px)] bg-black_70"
+    id="dialog"
+  >
+    <div
+      class="w-fit undefined max-w-4xl p-6 border-white rounded-xl relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white max-h-dialog overflow-auto"
+    >
+      <div
+        class="font-bold text-primary mb-5"
+      />
+      <div>
+        Dialog content
+      </div>
+      <div
+        class="w-full flex justify-center mt-10"
+      >
+        <button
+          class="mr-20 font-bold text-primary border-primary rounded-button px-6 py-4 max-h-14 py-5 px-2 w-40 text-sm font-normal border border-solid hover:opacity-80"
+        >
+          Cancel
+        </button>
+        <button
+          class="font-bold text-white bg-primary border-primary rounded-button px-6 py-4 max-h-14 py-5 px-2 w-40 text-sm font-normal border border-solid hover:opacity-80 bg-gray_"
+        >
+          Save
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

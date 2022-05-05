@@ -1,0 +1,36 @@
+name: react-redux-saga-test
+on:
+  pull_request:
+    branches:
+      - main
+    paths-ignore:
+      - "**.md"
+      - ".gitignore"
+
+jobs:
+  lint_and_test:
+    runs-on: ubuntu-18.04
+    timeout-minutes: 300
+    strategy:
+      matrix:
+        node: ["14.17.x"]
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: install dependencies
+        run: yarn install
+
+      - name: lint app
+        run: yarn lint
+
+      - name: test app
+        run: yarn test

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: 'Noto Sans JP';
+    font-style: normal;
+    color: #525252;
+}
+
+input[type = "file"]::-webkit-file-upload-button {
+  visibility: hidden;
+}
